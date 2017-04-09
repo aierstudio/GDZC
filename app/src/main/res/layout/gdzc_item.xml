@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="17dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gdzc_image"
+            android:src="@drawable/abc"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="实物编号"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gdzc_acode" />
+            <TextView
+                android:text="行政编号"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gdzc_mcode" />
+
+
+            <TextView
+                android:text="资产名称"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gdzc_name" />
+
+            <TextView
+                android:text="品牌"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gdzc_brand" />
+
+            <TextView
+                android:text="规格型号"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gdzc_model" />
+
+            <TextView
+                android:text="使用部门"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gdzc_udep" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

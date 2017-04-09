@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="studio.aier.ishc.gdzc.ShowActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gdzc_online"
+            android:id="@+id/show_imgPic"
+            android:layout_marginBottom="27dp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@color/zxing_custom_viewfinder_laser"
+            android:id="@+id/imageView4" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_margin="7dp">
+
+            <TextView
+                android:text="实物编号："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvAcode"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvAcodeR"
+                android:layout_weight="4" />
+            <TextView
+                android:text="资产编号："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvMcode"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvMcodeR"
+                android:layout_weight="4" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@color/zxing_custom_viewfinder_laser"
+            android:id="@+id/imageView4" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_margin="7dp">
+
+            <TextView
+                android:text="资产类别："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvType"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvTypeR"
+                android:layout_weight="4" />
+            <TextView
+                android:text="资产名称："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvName"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvNameR"
+                android:layout_weight="4" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@color/zxing_custom_viewfinder_laser"
+            android:id="@+id/imageView4" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_margin="7dp">
+
+            <TextView
+                android:text="资产品牌："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvBrand"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvBrandR"
+                android:layout_weight="4" />
+            <TextView
+                android:text="规格型号："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvModel"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvModelR"
+                android:layout_weight="4" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@color/zxing_custom_viewfinder_laser"
+            android:id="@+id/imageView4" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_margin="7dp">
+
+            <TextView
+                android:text="入账时间："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvCTime"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvCTimeR"
+                android:layout_weight="4" />
+            <TextView
+                android:text="资产原值："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvPrice"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvPriceR"
+                android:layout_weight="4" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@color/zxing_custom_viewfinder_laser"
+            android:id="@+id/imageView4" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_margin="7dp">
+
+            <TextView
+                android:text="取得方式："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvGet"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvGetR"
+                android:layout_weight="4" />
+            <TextView
+                android:text="取得时间："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvGTime"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvGTimeR"
+                android:layout_weight="4" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@color/zxing_custom_viewfinder_laser"
+            android:id="@+id/imageView4" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_margin="7dp">
+
+            <TextView
+                android:text="使用部门："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvUDep"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvUDepR"
+                android:layout_weight="4" />
+            <TextView
+                android:text="存放地点："
+                android:textSize="27dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvStore"
+                android:layout_weight="1" />
+            <TextView
+                android:text="空"
+                android:textSize="27dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/show_txvStoreR"
+                android:layout_weight="4" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@color/zxing_custom_viewfinder_laser"
+            android:id="@+id/imageView4" />
+
+        <Button
+            android:text="返回"
+            android:textSize="27dp"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/show_btnBack"
+            android:layout_gravity="center"
+            android:layout_margin="27dp"
+            android:background="@android:drawable/btn_default" />
+
+
+    </LinearLayout>
+</RelativeLayout>
